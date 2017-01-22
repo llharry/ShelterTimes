@@ -1,0 +1,819 @@
+@import 'https://fonts.googleapis.com/css?family=Noto+Sans';
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+/* line 1, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/main.scss */
+* {
+  box-sizing: border-box;
+}
+
+/*
+
+CORE
+
+*/
+/* line 25, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+.width1, .width2, .width3, .width3_2, .width4, .width4_3, .width5, .width5_2, .width5_3, .width5_4, .width6, .width8, .width10, .width12 {
+  float: left;
+}
+
+/* line 28, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+.hide {
+  display: none;
+}
+
+/* line 31, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+.siteWidth {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1100px;
+}
+
+/* line 32, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+.widthInsideSmall {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+/* line 37, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+.widthInside {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/* line 42, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+.widthInsideBig {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* line 47, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+.siteWidthLeft {
+  float: right;
+}
+
+/* line 50, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+.siteWidthRight {
+  float: left;
+}
+
+/* line 54, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+.width1 {
+  width: 100%;
+}
+
+/* line 55, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+.width2 {
+  width: 50%;
+}
+
+/* line 56, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+.width3 {
+  width: 33.333%;
+}
+
+/* line 57, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+.width3_2 {
+  width: 66.666%;
+}
+
+/* line 58, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+.width4 {
+  width: 25%;
+}
+
+/* line 59, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+.width4_3 {
+  width: 75%;
+}
+
+/* line 60, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+.width5 {
+  width: 20%;
+}
+
+/* line 61, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+.width5_2 {
+  width: 40%;
+}
+
+/* line 62, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+.width5_3 {
+  width: 60%;
+}
+
+/* line 63, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+.width5_4 {
+  width: 80%;
+}
+
+/* line 64, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+.width6 {
+  width: 16.666%;
+}
+
+/* line 65, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+.width8 {
+  width: 12.5%;
+}
+
+/* line 66, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+.width10 {
+  width: 10%;
+}
+
+/* line 67, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+.width12 {
+  width: 8.333%;
+}
+
+@media (min-width: 2001px) {
+  /* line 70, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .siteWidth {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1800px;
+  }
+  /* line 73, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .siteWidthLeft {
+    width: 900px;
+  }
+  /* line 74, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .siteWidthRight {
+    width: 900px;
+  }
+  /* line 76, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width1 {
+    width: 100%;
+  }
+  /* line 77, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width2 {
+    width: 50%;
+  }
+  /* line 78, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width3 {
+    width: 33.333%;
+  }
+  /* line 79, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width3_2 {
+    width: 66.666%;
+  }
+  /* line 80, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width4 {
+    width: 25%;
+  }
+  /* line 81, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width4_3 {
+    width: 75%;
+  }
+  /* line 82, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width5 {
+    width: 20%;
+  }
+  /* line 83, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width5_2 {
+    width: 40%;
+  }
+  /* line 84, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width5_3 {
+    width: 60%;
+  }
+  /* line 85, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width5_4 {
+    width: 80%;
+  }
+  /* line 86, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width6 {
+    width: 16.666%;
+  }
+  /* line 87, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width8 {
+    width: 12.5%;
+  }
+  /* line 88, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width10 {
+    width: 10%;
+  }
+  /* line 89, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width12 {
+    width: 8.333%;
+  }
+}
+
+@media (max-width: 2000px) {
+  /* line 93, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .siteWidth {
+    width: 1200px;
+  }
+  /* line 96, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .siteWidthLeft {
+    width: 600px;
+  }
+  /* line 97, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .siteWidthRight {
+    width: 600px;
+  }
+  /* line 99, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width1 {
+    width: 100%;
+  }
+  /* line 100, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width2 {
+    width: 50%;
+  }
+  /* line 101, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width3 {
+    width: 33.333%;
+  }
+  /* line 102, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width3_2 {
+    width: 66.666%;
+  }
+  /* line 103, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width4 {
+    width: 25%;
+  }
+  /* line 104, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width4_3 {
+    width: 75%;
+  }
+  /* line 105, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width5 {
+    width: 20%;
+  }
+  /* line 106, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width5_2 {
+    width: 40%;
+  }
+  /* line 107, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width5_3 {
+    width: 60%;
+  }
+  /* line 108, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width5_4 {
+    width: 80%;
+  }
+  /* line 109, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width6 {
+    width: 16.666%;
+  }
+  /* line 110, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width8 {
+    width: 12.5%;
+  }
+  /* line 111, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width10 {
+    width: 10%;
+  }
+  /* line 112, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width12 {
+    width: 8.333%;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* line 115, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .siteWidth {
+    width: 990px;
+  }
+  /* line 118, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .siteWidthLeft {
+    width: 495px;
+  }
+  /* line 119, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .siteWidthRight {
+    width: 495px;
+  }
+  /* line 121, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width1 {
+    width: 100%;
+  }
+  /* line 122, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width2 {
+    width: 50%;
+  }
+  /* line 123, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width3 {
+    width: 33.333%;
+  }
+  /* line 124, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width3_2 {
+    width: 66.666%;
+  }
+  /* line 125, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width4 {
+    width: 25%;
+  }
+  /* line 126, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width4_3 {
+    width: 75%;
+  }
+  /* line 127, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width5 {
+    width: 20%;
+  }
+  /* line 128, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width5_2 {
+    width: 40%;
+  }
+  /* line 129, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width5_3 {
+    width: 60%;
+  }
+  /* line 130, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width5_4 {
+    width: 80%;
+  }
+  /* line 131, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width6 {
+    width: 33.333%;
+  }
+  /* line 132, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width8 {
+    width: 25%;
+  }
+  /* line 133, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width10 {
+    width: 20%;
+  }
+  /* line 134, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width12 {
+    width: 33.333%;
+  }
+}
+
+@media (max-width: 992px) {
+  /* line 137, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .siteWidth {
+    width: 760px;
+  }
+  /* line 140, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .siteWidthLeft {
+    width: 380px;
+  }
+  /* line 141, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .siteWidthRight {
+    width: 380px;
+  }
+  /* line 143, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width1 {
+    width: 100%;
+  }
+  /* line 144, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width2 {
+    width: 50%;
+  }
+  /* line 145, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width3 {
+    width: 100%;
+  }
+  /* line 146, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width3_2 {
+    width: 100%;
+  }
+  /* line 147, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width4 {
+    width: 50%;
+  }
+  /* line 148, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width4_3 {
+    width: 75%;
+  }
+  /* line 149, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width5 {
+    width: 20%;
+  }
+  /* line 150, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width5_2 {
+    width: 40%;
+  }
+  /* line 151, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width5_3 {
+    width: 60%;
+  }
+  /* line 152, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width5_4 {
+    width: 80%;
+  }
+  /* line 153, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width6 {
+    width: 100%;
+  }
+  /* line 154, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width8 {
+    width: 50%;
+  }
+  /* line 155, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width10 {
+    width: 50%;
+  }
+  /* line 156, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 159, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .siteWidth {
+    width: 100%;
+  }
+  /* line 160, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .widthInsideSmall {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /* line 165, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .widthInside {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /* line 170, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .widthInsideBig {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  /* line 175, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .siteWidthLeft {
+    width: 50%;
+  }
+  /* line 176, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .siteWidthRight {
+    width: 50%;
+  }
+  /* line 178, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width1 {
+    width: 100%;
+  }
+  /* line 179, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width2 {
+    width: 100%;
+  }
+  /* line 180, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width3 {
+    width: 100%;
+  }
+  /* line 181, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width3_2 {
+    width: 100%;
+  }
+  /* line 182, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width4 {
+    width: 100%;
+  }
+  /* line 183, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width4_3 {
+    width: 100%;
+  }
+  /* line 184, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width5 {
+    width: 100%;
+  }
+  /* line 185, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width5_2 {
+    width: 100%;
+  }
+  /* line 186, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width5_3 {
+    width: 100%;
+  }
+  /* line 187, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width5_4 {
+    width: 100%;
+  }
+  /* line 188, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width6 {
+    width: 100%;
+  }
+  /* line 189, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width8 {
+    width: 100%;
+  }
+  /* line 190, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width10 {
+    width: 100%;
+  }
+  /* line 191, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_grids.scss */
+  .width12 {
+    width: 100%;
+  }
+}
+
+/* line 1, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_responsiveImages.scss */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* line 1, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_misc.scss */
+.centerParent {
+  display: table;
+}
+
+/* line 4, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_misc.scss */
+.centerChild {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* line 1, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/core/_typoReset.scss */
+a {
+  text-decoration: none;
+}
+
+/*
+
+INTERACTION
+
+*/
+/* line 1, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/interaction/_buttons.scss */
+.button-transparent, .button-submit {
+  padding: 6px 12px;
+  font-weight: bold;
+  transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+  cursor: pointer;
+  font-size: 11pt;
+}
+
+/* line 8, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/interaction/_buttons.scss */
+.button-transparent, .button-submit {
+  border: #fff 2px solid;
+  color: #2383cf;
+  background-color: transparent;
+}
+
+/* line 13, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/interaction/_buttons.scss */
+.button-transparent:hover, .button-submit:hover {
+  color: #fff;
+  border-color: #2383cf;
+  background-color: rgba(35, 131, 207, 0.2);
+}
+
+/* line 19, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/interaction/_buttons.scss */
+.button-submit {
+  max-width: 40%;
+}
+
+/*
+
+VENDOR
+
+*/
+/* line 1, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/vendor/_ubermenuReset.scss */
+nav.ubermenu, #ubermenu-main-2-main-menu {
+  box-shadow: none;
+  background: none;
+  border: none;
+}
+
+/* line 7, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/vendor/_ubermenuReset.scss */
+nav.ubermenu ul li a, #ubermenu-main-2-main-menu ul li a {
+  color: #fff;
+  background: none;
+  box-shadow: none;
+  border: none;
+}
+
+/* line 16, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/vendor/_ubermenuReset.scss */
+.ubermenu-responsive-toggle {
+  box-shadow: none;
+  border: none;
+  background-color: transparent !important;
+}
+
+/* line 1, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/vendor/_ubermenu-mainMenu.scss */
+.menuBar {
+  background-color: #111;
+}
+
+/* line 3, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/vendor/_ubermenu-mainMenu.scss */
+.menuBar #ubermenu-main-2-main-menu {
+  box-shadow: none;
+  background: none;
+  border: none;
+}
+
+/* line 9, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/vendor/_ubermenu-mainMenu.scss */
+.menuBar #ubermenu-main-2-main-menu ul li a {
+  color: #fff;
+  background: none;
+  box-shadow: none;
+  border: none;
+  transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+}
+
+/* line 15, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/vendor/_ubermenu-mainMenu.scss */
+.menuBar #ubermenu-main-2-main-menu ul li a:hover {
+  color: #2383cf;
+}
+
+/*
+
+STYLE
+
+*/
+/* line 1, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/_typography.scss */
+body {
+  font-family: "Noto Sans", sans-serif;
+  color: #fff;
+}
+
+/* line 6, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  margin: 6px 12px;
+}
+
+/* line 13, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/_typography.scss */
+h1 {
+  font-size: 2.2em;
+}
+
+/* line 16, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/_typography.scss */
+h2 {
+  font-size: 2.0em;
+}
+
+/* line 19, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/_typography.scss */
+h3 {
+  font-size: 1.8em;
+}
+
+/* line 22, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/_typography.scss */
+h4 {
+  font-size: 1.6em;
+}
+
+/* line 25, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/_typography.scss */
+h5 {
+  font-size: 1.4em;
+}
+
+/* line 28, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/_typography.scss */
+h6 {
+  font-size: 1.2em;
+}
+
+/* line 32, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/_typography.scss */
+p {
+  padding: 6px 12px;
+}
+
+/* line 36, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/_typography.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 39, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/_typography.scss */
+em {
+  font-style: italic;
+}
+
+/* line 43, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/_typography.scss */
+a {
+  transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+  color: #cccccc;
+}
+
+/* line 47, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/_typography.scss */
+a:hover {
+  color: #2383cf;
+}
+
+/* line 53, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/_typography.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 57, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/_typography.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 60, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/_typography.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 2, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/pages/_homepage.scss */
+.page_homepage #map {
+  height: 400px;
+  width: 100%;
+}
+
+/* line 1, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/pages/_default.scss */
+.page_default {
+  background-color: #333;
+}
+
+/* line 4, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/pages/_default.scss */
+.page_default .titleBar {
+  padding: 6px 0;
+  background-color: #eee;
+  color: #2383cf;
+}
+
+/* line 9, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/pages/_default.scss */
+.page_default .pageContent {
+  padding: 6px 0;
+}
+
+/* line 12, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/pages/_default.scss */
+.page_default .pageSidebar {
+  padding: 12px 0;
+}
+
+/* line 16, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/pages/_default.scss */
+.page_default .pricingBlock .pricingWrapper {
+  padding: 12px;
+}
+
+/* line 18, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/pages/_default.scss */
+.page_default .pricingBlock .pricingWrapper .pricingWidget {
+  padding: 12px;
+  color: #fff;
+  background-color: #144c78;
+  text-align: center;
+  border-radius: 10px;
+  min-height: 320px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 992px) {
+  /* line 18, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/pages/_default.scss */
+  .page_default .pricingBlock .pricingWrapper .pricingWidget {
+    min-height: 200px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 18, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/pages/_default.scss */
+  .page_default .pricingBlock .pricingWrapper .pricingWidget {
+    min-height: 200px;
+  }
+}
+
+/* line 32, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/pages/_default.scss */
+.page_default .pricingBlock .pricingWrapper .pricingWidget p:nth-child(1) {
+  font-size: 10pt;
+}
+
+/* line 1, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/sections/_header.scss */
+.headerBar {
+  background-color: #111;
+}
+
+/* line 3, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/sections/_header.scss */
+.headerBar .menuBar {
+  background-color: #333;
+}
+
+/* line 7, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/sections/_header.scss */
+.headerBar img {
+  max-height: 100px;
+  width: auto;
+}
+
+/* line 1, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/sections/_footer.scss */
+.footerBar {
+  padding-top: 12px;
+  background-color: #111;
+  color: #fff;
+}
+
+/* line 8, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/style/sections/_footer.scss */
+.footerBar .copyrightBar {
+  padding: 6px 0;
+}
+
+/* line 52, Users/Harry/Desktop/MampRoot/sheltertimes/wp-content/themes/Pluto_4/sass/main.scss */
+body {
+  background-color: #111;
+  margin: 0;
+}
+
+/*
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+*/
+/*
+//# sourceMappingURL=main.css.map
+*/
+
+/*# sourceMappingURL=main.css.map */
