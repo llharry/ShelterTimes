@@ -117,6 +117,66 @@
 		"oAP": "\/.sass-cache\/f34005d90878c030983cfdddabd29d14ac2b5f23\/_reset.scssc",
 		"oF": 0
 		},
+	"\/captcha\/autoload.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/captcha\/autoload.php",
+		"oF": 0
+		},
+	"\/captcha\/ReCaptcha\/ReCaptcha.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/captcha\/ReCaptcha\/ReCaptcha.php",
+		"oF": 0
+		},
+	"\/captcha\/ReCaptcha\/RequestMethod.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/captcha\/ReCaptcha\/RequestMethod.php",
+		"oF": 0
+		},
+	"\/captcha\/ReCaptcha\/RequestMethod\/Curl.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/captcha\/ReCaptcha\/RequestMethod\/Curl.php",
+		"oF": 0
+		},
+	"\/captcha\/ReCaptcha\/RequestMethod\/CurlPost.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/captcha\/ReCaptcha\/RequestMethod\/CurlPost.php",
+		"oF": 0
+		},
+	"\/captcha\/ReCaptcha\/RequestMethod\/Post.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/captcha\/ReCaptcha\/RequestMethod\/Post.php",
+		"oF": 0
+		},
+	"\/captcha\/ReCaptcha\/RequestMethod\/Socket.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/captcha\/ReCaptcha\/RequestMethod\/Socket.php",
+		"oF": 0
+		},
+	"\/captcha\/ReCaptcha\/RequestMethod\/SocketPost.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/captcha\/ReCaptcha\/RequestMethod\/SocketPost.php",
+		"oF": 0
+		},
+	"\/captcha\/ReCaptcha\/RequestParameters.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/captcha\/ReCaptcha\/RequestParameters.php",
+		"oF": 0
+		},
+	"\/captcha\/ReCaptcha\/Response.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/captcha\/ReCaptcha\/Response.php",
+		"oF": 0
+		},
 	"\/css\/main.css": {
 		"aP": 0,
 		"bl": 0,
@@ -622,16 +682,34 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/templates\/acceptrejectmarkers.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates\/acceptrejectmarkers.php",
+		"oF": 0
+		},
 	"\/templates\/contactForm.php": {
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/templates\/contactForm.php",
 		"oF": 0
 		},
+	"\/templates\/editMarkers.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates\/editMarkers.php",
+		"oF": 0
+		},
 	"\/templates\/fetchMapMarkers.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/templates\/fetchMapMarkers.php",
+		"oF": 0
+		},
+	"\/templates\/fetchrq_markers.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/templates\/fetchrq_markers.php",
 		"oF": 0
 		},
 	"\/templates\/fullwidth.php": {

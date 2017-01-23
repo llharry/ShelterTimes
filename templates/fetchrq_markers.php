@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: API - Map Markers Page
+ * Template Name: API - Requested Map Markers Page
  */
 ?>
 <?php
@@ -15,7 +15,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT * FROM `markers`";
+$sql = "SELECT * FROM `rq_markers`";
 $result = $conn->query($sql);
 
 function echoIfNotLast($count,$max,$str){

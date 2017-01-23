@@ -24,7 +24,8 @@
   <?php //ScrollReveal ?>
   <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
   <?php //ReCaptcha 6LcsxxIUAAAAALEOI0OHsFb7RWNAfDaTmxLwqY5T?>
-  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 
   <?php //Contained stuff ?>
   <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/scripts.js"></script>

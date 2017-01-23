@@ -23,17 +23,15 @@ get_header(); ?>
         function loadMapMarkers(){ //Load all accepted map markers from database
             var datas = ""
             $.getJSON('/fetchmapmarkers/', function(data){ //Connect to templates/fetchmapmarkers.php to retrieve the json file of the map label data.
-                datas = data;
                 for(var marker in data){
                     var marker = data[marker]
                     var pos = marker.position
                     var marker = new google.maps.Marker({
                       position: pos,
                       map: map,
-                      title: marker.name
+                      title: marker.locationName
                     });
                 }
-                console.log(datas)
             });
 
         }
